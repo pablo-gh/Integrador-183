@@ -1,0 +1,494 @@
+@import url("https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap");
+body {
+  background-color: #EEEBF2;
+}
+
+header .barra {
+  background-color: #161526;
+}
+header button {
+  color: #4BE8CD !important;
+  background-color: #35958A !important;
+}
+header a {
+  color: #4BE8CD !important;
+  font-family: "Carlito", sans-serif !important;
+  font-size: 21px !important;
+}
+header .banner {
+  background-image: url("../img/banner-index.png");
+  height: 300px;
+  background-size: cover;
+  padding-top: 20px;
+}
+header .banner .texto-banner {
+  width: 500px;
+  padding-left: 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+header .banner .texto-banner h1 {
+  font-weight: 700;
+}
+header .banner .texto-banner p {
+  font-weight: 400;
+  font-size: 16px;
+}
+header .banner .texto-banner ul {
+  padding-left: 0px;
+}
+header .banner .texto-banner li {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 21px;
+}
+header .banner .texto-banner li > i {
+  color: #4BE8CD;
+}
+header .banner .texto-banner button {
+  border: none !important;
+  background-color: #4BE8CD !important;
+}
+header .banner .texto-banner button a {
+  color: #15494B !important;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main-index {
+  background-color: white;
+}
+.main-index .servicios {
+  padding: 50px 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+.main-index .servicios div {
+  text-align: center;
+}
+.main-index .servicios div h1 {
+  font-weight: 700;
+}
+.main-index .servicios div p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.main-index .servicios .tarjetas {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.main-index .servicios .tarjetas .tarjeta {
+  align-items: center;
+  border: none;
+}
+.main-index .servicios .tarjetas .tarjeta img {
+  width: 75px;
+  height: 90px;
+}
+.main-index .servicios .tarjetas .tarjeta h5 {
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+.main-index .clientes {
+  padding: 20px 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+.main-index .clientes div {
+  text-align: center;
+}
+.main-index .clientes div h1 {
+  font-weight: 700;
+}
+.main-index .clientes div p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.main-index .clientes h4 {
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 20px;
+  text-align: left;
+}
+.main-index .clientes p {
+  padding: 20px;
+}
+.main-index .clientes .primero {
+  background-color: #012626;
+}
+.main-index .clientes .primero h4 {
+  color: whitesmoke;
+}
+.main-index .clientes .primero p {
+  color: whitesmoke;
+  text-align: left;
+}
+.main-index .clientes .segundo {
+  background-color: #15494B;
+}
+.main-index .clientes .segundo h4 {
+  color: whitesmoke;
+}
+.main-index .clientes .segundo p {
+  color: whitesmoke;
+  text-align: left;
+}
+.main-index .clientes .tercero {
+  background-color: #35958A;
+}
+.main-index .clientes .tercero h4 {
+  color: whitesmoke;
+}
+.main-index .clientes .tercero p {
+  color: whitesmoke;
+  text-align: left;
+}
+.main-index .clientes .cuarto {
+  background-color: #48D9BE;
+}
+.main-index .clientes .cuarto h4 {
+  color: whitesmoke;
+}
+.main-index .clientes .cuarto p {
+  color: whitesmoke;
+  text-align: left;
+}
+
+footer .contacto {
+  padding-top: 50px;
+  background-color: #C5C4CB;
+  display: block;
+  text-align: center;
+  color: #35958A;
+}
+footer .contacto h2 {
+  font-size: 32;
+  font-weight: 700;
+  color: #012626;
+}
+footer .contacto button {
+  border: none !important;
+  background-color: #48D9BE !important;
+}
+footer .contacto button a {
+  color: #15494B !important;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+footer div {
+  background-color: #161526;
+  padding: 20px;
+  color: #35958A;
+  font-family: "Carlito", sans-serif;
+  font-weight: 400;
+  font-size: 12;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer div img {
+  width: 75px;
+  height: 75px;
+}
+footer div li {
+  list-style: none;
+}
+footer div a {
+  text-decoration: none;
+  color: #4BE8CD;
+}
+footer div .item-telefono {
+  padding: 10px 10px 10px 37px;
+  color: #4BE8CD;
+}
+footer div .item-redes {
+  display: inline-block;
+  padding: 10px;
+}
+footer div .titulo-lista {
+  font-size: 32px;
+}
+
+#baner-nosotros {
+  background-image: url("../img/banner-nosotros.png");
+  text-align: end;
+  padding-top: 40px;
+}
+#baner-nosotros .texto-banner {
+  display: inline-block;
+  padding-right: 100px;
+  padding-left: 0px;
+  width: 800px;
+}
+#baner-nosotros .texto-banner h1 {
+  font-weight: 400;
+  font-size: 21px;
+}
+#baner-nosotros .texto-banner li {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.main-nosotros {
+  background-color: white;
+}
+.main-nosotros .objetivo {
+  padding: 20px 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+.main-nosotros .objetivo div {
+  text-align: center;
+}
+.main-nosotros .objetivo div h1 {
+  font-weight: 700;
+}
+.main-nosotros .objetivo div p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.main-nosotros .objetivo h4 {
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 20px;
+  text-align: left;
+}
+.main-nosotros .objetivo p {
+  padding: 20px;
+}
+.main-nosotros .objetivo .primero {
+  background-color: #012626;
+}
+.main-nosotros .objetivo .primero h4 {
+  color: whitesmoke;
+}
+.main-nosotros .objetivo .primero ul {
+  padding: 20px;
+}
+.main-nosotros .objetivo .primero li {
+  color: whitesmoke;
+  text-align: left;
+}
+.main-nosotros .objetivo .segundo {
+  background-color: #15494B;
+}
+.main-nosotros .objetivo .segundo h4 {
+  color: whitesmoke;
+}
+.main-nosotros .objetivo .segundo p {
+  color: whitesmoke;
+  text-align: left;
+}
+.main-nosotros .objetivo .tercero {
+  background-color: #35958A;
+}
+.main-nosotros .objetivo .tercero h4 {
+  color: whitesmoke;
+}
+.main-nosotros .objetivo .tercero p {
+  color: whitesmoke;
+  text-align: left;
+}
+.main-nosotros .objetivo .cuarto {
+  background-color: #48D9BE;
+}
+.main-nosotros .objetivo .cuarto h4 {
+  color: whitesmoke;
+}
+.main-nosotros .objetivo .cuarto p {
+  color: whitesmoke;
+  text-align: left;
+}
+.main-nosotros .equipo {
+  padding: 20px 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+.main-nosotros .equipo div {
+  text-align: center;
+}
+.main-nosotros .equipo div h1 {
+  font-weight: 700;
+}
+.main-nosotros .equipo div p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.main-nosotros .equipo .tarjetas-equipo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.main-nosotros .equipo .tarjetas-equipo .tarjeta-equipo {
+  align-items: center;
+  border: none;
+}
+.main-nosotros .equipo .tarjetas-equipo .tarjeta-equipo img {
+  width: 200px;
+  height: 200px;
+}
+.main-nosotros .equipo .tarjetas-equipo .tarjeta-equipo h5 {
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+.main-nosotros .equipo .tarjetas-equipo .tarjeta-equipo .socios {
+  font-size: 21px;
+}
+.main-nosotros .foco {
+  padding: 20px 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+.main-nosotros .foco .contadores {
+  padding-top: 30px;
+  background-color: #4BE8CD;
+}
+.main-nosotros .foco div {
+  text-align: center;
+}
+.main-nosotros .foco div h1 {
+  font-weight: 700;
+}
+.main-nosotros .foco div p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.main-nosotros .foco h4 {
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 20px;
+  text-align: left;
+}
+.main-nosotros .foco p {
+  padding: 20px;
+}
+
+#banner-contacto {
+  background-image: url("../img/banner-contacto.png");
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+#banner-contacto h1 {
+  margin-bottom: 0px;
+}
+
+.main-contacto {
+  background-color: white;
+  margin: 50px 100px;
+  color: #15494B;
+  font-family: "Carlito", sans-serif;
+}
+.main-contacto .panel-izquierdo {
+  padding-right: 50px;
+}
+.main-contacto .panel-izquierdo h2 {
+  font-weight: 700;
+  font-size: 36;
+}
+.main-contacto .panel-derecho label {
+  margin-bottom: 0px;
+}
+.main-contacto .panel-derecho input {
+  margin-bottom: 10px;
+}
+.main-contacto .panel-derecho select {
+  margin-bottom: 10px;
+}
+.main-contacto .panel-derecho textarea {
+  margin-bottom: 10px;
+}
+.main-contacto .panel-derecho button {
+  border: none !important;
+  background-color: #4BE8CD !important;
+  color: #15494B !important;
+  font-weight: 400;
+  font-size: 16px;
+  width: 100px;
+}
+
+@media (min-width: 360px) and (max-width: 800px) {
+  header .banner {
+    margin-bottom: 20px;
+  }
+  header .banner .texto-banner {
+    width: 360px;
+    padding-left: 5px;
+  }
+  header .banner .texto-banner li {
+    font-size: 16px;
+  }
+  header #baner-nosotros {
+    margin-bottom: 20px;
+    background-image: none;
+  }
+  header #baner-nosotros .texto-banner {
+    width: 360px;
+    padding-right: 5px;
+  }
+  header #baner-nosotros .texto-banner li {
+    font-size: 16px;
+  }
+  header #banner-contacto {
+    background-image: none;
+    background-color: #EEEBF2;
+  }
+  .main-index .clientes {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .main-nosotros .objetivo {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .main-nosotros .equipo {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .main-nosotros .equipo .tarjetas-equipo .tarjeta-equipo {
+    padding: 0px;
+  }
+  .main-nosotros .foco {
+    padding: 20px 5px;
+  }
+  .main-contacto {
+    margin: 20px 10px;
+  }
+  footer .pie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  footer .pie img {
+    visibility: hidden;
+  }
+  footer .pie div {
+    padding: 0px;
+    width: 300px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+  }
+  footer .pie div ul {
+    width: 300px;
+    height: 160px;
+    padding: 0%;
+  }
+  footer .pie div ul li {
+    padding: 0%;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

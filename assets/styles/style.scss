@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap');
+
+$color-principal:#4BE8CD;
+$color-secundario:#48D9BE;
+$color-terciario:#35958A;
+$color-principal-oscuro:#15494B;
+$color-fondo:#161526;
+$color-auxiliar:#012626;
+
+$letra-principal: 'Carlito', sans-serif;
+// width: 400px;
+//Menus: 21px
+//texto: 16px 
+
+body{
+    background-color: #EEEBF2;
+}
+
+
+header{
+    .barra{
+        background-color: $color-fondo;
+    }
+    button{
+        color:$color-principal !important;
+        background-color: $color-terciario !important;
+    }
+
+    a{
+        color:$color-principal !important;
+        font-family: $letra-principal !important;
+        font-size: 21px !important;
+    }
+    .banner{
+        background-image: url('../img/banner-index.png');
+        height: 300px;
+        background-size: cover;
+        padding-top: 20px;
+
+        .texto-banner{
+            width: 500px;
+            padding-left: 100px;
+            color:$color-principal-oscuro;
+            font-family: $letra-principal;
+
+            h1{    
+                font-weight: 700;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+            }
+            ul{
+                padding-left: 0px;
+            }
+            li{
+                display: inline-block;
+                font-weight: 400;
+                font-size: 21px;
+
+            }
+            li>i{
+                color: $color-principal;
+            }
+            button{
+                border: none !important;
+                background-color: $color-principal!important;
+         
+                a{
+                    color:$color-principal-oscuro!important;
+                    text-decoration: none;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.main-index{
+    background-color: white;
+    .servicios{
+        padding: 50px 100px;
+        color:$color-principal-oscuro;
+        font-family: $letra-principal;  
+        div{
+            text-align: center;
+            h1{    
+                font-weight: 700;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+        .tarjetas{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            .tarjeta{
+                align-items: center;
+                border: none;
+                img{
+                    width: 75px;
+                    height: 90px;
+                }
+                h5{
+                    color:$color-principal-oscuro;
+                    font-family: $letra-principal;  
+                    font-weight: 700;
+                    font-size: 32px;
+                }
+
+            }
+        }
+    }
+    .clientes{
+        padding: 20px 100px;
+        color:$color-principal-oscuro;
+        font-family: $letra-principal;  
+        div{
+            text-align: center;
+            h1{    
+                font-weight: 700;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+        h4{
+            font-family: $letra-principal;  
+            font-weight: 700;
+            font-size: 36px;
+            padding: 20px;
+            text-align: left;
+        }
+        p{
+            padding: 20px;
+        }
+        .primero{
+            background-color: $color-auxiliar;
+            h4{
+                color:whitesmoke;
+            }
+            p{
+                color:whitesmoke;
+                text-align: left;
+            }
+            
+        }
+        .segundo{
+            background-color: $color-principal-oscuro;
+            h4{
+                color:whitesmoke;
+            }
+            p{
+                color:whitesmoke;
+                text-align: left;
+            }
+        }
+        .tercero{
+            background-color:$color-terciario ;
+            h4{
+                color:whitesmoke;
+            }
+            p{
+                color:whitesmoke;
+                text-align: left;
+            }
+        }
+        .cuarto{
+            background-color:$color-secundario ;
+            h4{
+                color:whitesmoke;
+            }
+            p{
+                color:whitesmoke;
+                text-align: left;
+            }
+        }
+
+    }
+}
+
+
+footer{
+
+    .contacto{
+        padding-top: 50px;
+        background-color: #C5C4CB;
+        display: block;
+        text-align: center;
+        color:$color-terciario;
+        h2{
+            font-size: 32;
+            font-weight: 700;
+            color: $color-auxiliar;
+        }
+        button{
+            border: none !important;
+            background-color: $color-secundario !important;
+     
+            a{
+                color:$color-principal-oscuro!important;
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+
+
+    }
+
+    div{
+        background-color: $color-fondo;
+        padding: 20px;
+        color: $color-terciario;
+        font-family: $letra-principal;
+        font-weight: 400;
+        font-size: 12;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img{
+            width: 75px;
+            height: 75px;
+        }
+        
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: $color-principal;
+        }
+        .item-telefono{
+            padding: 10px 10px 10px 37px;
+            color: $color-principal;
+        }
+        .item-redes{
+            display: inline-block;
+           
+            padding: 10px;
+        }
+        .titulo-lista{
+            font-size: 32px;
+        }
+  
+    }
+
+}
+
+#baner-nosotros{
+    background-image: url('../img/banner-nosotros.png');
+    text-align: end;
+    padding-top: 40px;
+    .texto-banner{
+        display: inline-block;
+        padding-right: 100px;
+        padding-left: 0px;
+        width: 800px;
+        h1{
+            font-weight: 400;
+            font-size: 21px;
+        }
+        li{
+            font-weight: 700;
+            font-size: 36px;
+        }
+    }
+}
+
+.main-nosotros{
+    background-color: white;
+    .objetivo{
+        padding: 20px 100px;
+        color:$color-principal-oscuro;
+        font-family: $letra-principal;  
+        div{
+            text-align: center;
+            h1{    
+                font-weight: 700;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+        h4{
+            font-family: $letra-principal;  
+            font-weight: 700;
+            font-size: 36px;
+            padding: 20px;
+            text-align: left;
+        }
+        p{
+            padding: 20px;
+        }
+        .primero{
+            background-color: $color-auxiliar;
+            h4{
+                color:whitesmoke;
+            }
+            ul{
+                padding: 20px;
+            }
+            li{
+                color:whitesmoke;
+                text-align: left;
+            }            
+        }
+        .segundo{
+            background-color: $color-principal-oscuro;
+            h4{
+                color:whitesmoke;
+            }
+            p{
+                color:whitesmoke;
+                text-align: left;
+            }
+        }
+        .tercero{
+            background-color:$color-terciario ;
+            h4{
+                color:whitesmoke;
+            }
+            p{
+                color:whitesmoke;
+                text-align: left;
+            }
+        }
+        .cuarto{
+            background-color:$color-secundario ;
+            h4{
+                color:whitesmoke;
+            }
+            p{
+                color:whitesmoke;
+                text-align: left;
+            }
+        }
+
+    }
+    .equipo{
+        padding: 20px 100px;
+        color:$color-principal-oscuro;
+        font-family: $letra-principal;  
+        div{
+            text-align: center;
+            h1{    
+                font-weight: 700;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+        .tarjetas-equipo{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            .tarjeta-equipo{
+                align-items: center;
+                border: none;
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+                h5{
+                    color:$color-principal-oscuro;
+                    font-family: $letra-principal;  
+                    font-weight: 700;
+                    font-size: 28px;
+                }
+                .socios{
+                    font-size: 21px;
+                }
+
+            }
+        }
+    }
+
+    .foco{
+        padding: 20px 100px;
+        color:$color-principal-oscuro;
+        font-family: $letra-principal;  
+        .contadores{
+            padding-top: 30px;
+            background-color: $color-principal;
+        }
+        div{
+            text-align: center;
+            h1{    
+                font-weight: 700;
+
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+        h4{
+            font-family: $letra-principal;  
+            font-weight: 700;
+            font-size: 36px;
+            padding: 20px;
+            text-align: left;
+        }
+        p{
+            padding: 20px;
+        }
+    }
+
+
+
+}
+
+#banner-contacto{
+    background-image: url('../img/banner-contacto.png');
+    height: 200px;
+    display: flex;
+    align-items: center;
+    h1{
+        margin-bottom: 0px;
+
+
+    }
+}
+
+.main-contacto{
+    background-color: white;
+    margin: 50px 100px;
+    color: $color-principal-oscuro;
+    font-family: $letra-principal;
+    .panel-izquierdo{
+        padding-right: 50px;
+        h2{
+            font-weight: 700;
+            font-size: 36;
+        }    
+    }
+    .panel-derecho{
+        label{
+            margin-bottom: 0px;
+        }
+        input{
+            margin-bottom: 10px;
+        }
+        select{
+            margin-bottom: 10px;
+        }
+        textarea{
+            margin-bottom: 10px;
+        }
+        button{
+            border: none !important;
+            background-color: $color-principal!important;
+            color:$color-principal-oscuro!important;
+            font-weight: 400;
+            font-size: 16px;
+            width: 100px;
+        }
+    }
+}
+
+@media (min-width: 360px)  and (max-width: 800px ){ 
+
+    header{
+        .banner{
+            margin-bottom: 20px;
+            .texto-banner{
+                width:360px;
+                padding-left: 5px;
+                li{
+                    font-size: 16px;
+                }  
+            }
+        }
+        #baner-nosotros{
+            margin-bottom: 20px;
+            background-image: none;
+            .texto-banner{
+                width:360px;
+                padding-right: 5px;
+                li{
+                    font-size: 16px;
+                }  
+            }
+        }
+        #banner-contacto{
+            background-image: none;
+            background-color: #EEEBF2;
+        }
+    }
+
+    .main-index{
+        .clientes{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+
+    .main-nosotros{
+        .objetivo{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .equipo{
+            padding-left: 5px;
+            padding-right: 5px;
+            .tarjetas-equipo{
+                
+                .tarjeta-equipo{
+                    padding: 0px;
+
+                }
+            }
+        }
+        .foco{
+            padding: 20px 5px;
+        }
+
+    }
+
+    .main-contacto{
+        margin: 20px 10px;
+    }
+
+
+    footer{
+        .pie{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 0px;
+            padding-left: 0px;
+            img{
+                visibility: hidden;
+            }
+            div{
+                padding: 0px;
+                width: 300px;
+                height: 160px;
+                display: flex;
+                justify-content: center;
+                ul{
+                    width: 300px;
+                    height: 160px;
+                    padding: 0%;
+                    li{
+                        padding: 0%;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+
+
+
+
+
+}
+
+
+
+
+    

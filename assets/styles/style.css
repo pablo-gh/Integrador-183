@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Ubuntu&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.banner{
+    background-image: url(../img/bgconta.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h5:hover{
+    color: rgb(156, 104, 204);
+    font-size: x-large;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #a4b3ca;
+    min-height: 10vh;
+    /* background-image: url(../img/footer.png); */
+    background-size: cover;
+    color: white;
+    font-size: 64px;
+}
+
+.icons_foot img{
+    padding: 30px;
+    width: 120px;
+    color: white;
+}
+
+.icons_foot a{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
